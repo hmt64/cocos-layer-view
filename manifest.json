@@ -1,0 +1,36 @@
+{
+   "action": {
+      "default_icon": {
+         "24": "icons/icon24.png",
+         "48": "icons/icon48.png"
+      },
+      "default_title": "Cocos Anatomy (Custom): toggle layer view (Alt+Shift+L)"
+   },
+   "background": {
+      "service_worker": "src/background.js"
+   },
+   "commands": {
+      "toggle-layer-view": {
+         "description": "Toggle layer view",
+         "suggested_key": {
+            "default": "Alt+Shift+L"
+         }
+      }
+   },
+   "description": "Cocos Anatomy + Transform editor, docked in a DevTools tab (Anatomy). Explode a running Cocos Creator game (2.x and 3.x) into a 3D layer view.",
+   "icons": {
+      "128": "icons/icon128.png",
+      "24": "icons/icon24.png",
+      "48": "icons/icon48.png"
+   },
+   "manifest_version": 3,
+   "minimum_chrome_version": "111",
+   "name": "Cocos Anatomy (Custom)",
+   "permissions": [
+      "scripting",
+      "activeTab",
+      "clipboardWrite"
+   ],
+   "version": "0.3.0",
+   "devtools_page": "devtools/devtools.html"
+}
